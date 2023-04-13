@@ -1,0 +1,96 @@
+/* reset css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.register-container {
+    display: flex;
+}
+
+/* Desc */
+
+.register-container .register-container-desc {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container .register-container-desc .register-container-desc-child h2 {
+    font-size: 3.125rem;
+    font-weight: 800;
+}
+
+.register-container .register-container-desc .register-container-desc-child h4 {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    margin-bottom: 53px;
+}
+
+.register-container .register-container-desc .register-container-desc-child p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Form */
+
+.register-container .register-container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.register-container .register-container-form h4 {
+    font-size: 2.1875rem;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.register-container .register-container-form form {
+    display: flex;
+    flex-direction: column;
+    width: 369px;
+    height: 470px;
+    justify-content: space-between;
+}
+
+.register-container .register-container-form form input {
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    background: #f0efff;
+}
+
+.register-container .register-container-form form input::placeholder {
+    color: #a7a3ff;
+}
+
+.register-container .register-container-form form input:last-child {
+    color: #fff;
+    background-color: #4d47c3;
+}
+
+.register-container .register-container-form p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #b5b5b5;
+    margin-top: 47px;
+    margin-bottom: 46px;
+}
+
+.register-container .register-container-form ul {
+    list-style: none;
+    display: flex;
+    width: 165px;
+    justify-content: space-between;
+}
